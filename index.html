@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luxe Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+  <div class="logo-container">
+    <!-- Logo text -->
+    <div class="logo">🛍️Store</div>
+
+    <!-- Random image next to logo -->
+    <img src="image copy 20.png" alt="Laptop" class="logo-img">
+  </div>
+
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="contact.html">Contact</a>
+    <a href="#" id="cart-btn">🛒 Cart (<span id="cart-count">0</span>)</a>
+  </nav>
+</header>
+
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Discover Your Perfect Style</h1>
+    <p>Shop from our wide range of trendy fashion items.</p>
+    
+  </section>
+
+  <!-- Product Section -->
+  <section class="products" id="product-list">
+    <!-- Products will load here dynamically -->
+  </section>    
+
+  <!-- Cart Modal -->
+  <div class="cart-modal" id="cart-modal">
+    <div class="cart-content">
+      <h2>Your Cart</h2>
+      <div id="cart-items"></div>
+      <p id="total">Total: ₹0</p>
+      <button id="close-cart">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
