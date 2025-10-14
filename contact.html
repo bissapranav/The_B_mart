@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header (reuse from index.html) -->
+  <header>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="contact.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Contact Section -->
+  <main class="contact-page">
+    <h1>Contact Us</h1>
+    <p>Have questions or feedback? We’d love to hear from you!</p>
+
+    <div class="contact-container">
+      <!-- Contact Form -->
+      <form id="contact-form">
+        <label for="name">Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" rows="6" placeholder="Your Message" required></textarea>
+
+        <button type="submit">Send Message</button>
+      </form>
+
+      <!-- Contact Info -->
+      <div class="contact-info">
+        <h3>Our Info</h3>
+        <p><strong>Email:</strong> support@luxeshop.com</p>
+        <p><strong>Phone:</strong> +91 9876543210</p>
+        <p><strong>Address:</strong> 123 Main Street, Jaipur, India</p>
+        <p>We are here to help you with any questions or concerns!</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 LUXE Shop. All rights reserved.
+  </footer>
+
+  <script src="contact.js"></script>
+</body>
+</html>
